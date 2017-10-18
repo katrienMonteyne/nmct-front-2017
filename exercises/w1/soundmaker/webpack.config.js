@@ -10,11 +10,7 @@ module.exports = {
         filename: 'piano.bundle.js'
     },
     plugins: [
-        new cleanWebpackPlugin('[dist/js]'),
-        /*new htmlWebpackPlugin({
-            title: '$oundmaker',
-            filename: '../index.html'
-        })*/
+        new cleanWebpackPlugin('[dist/js]')
     ],
     module: {
         rules: [
