@@ -1,0 +1,48 @@
+body{
+  font-family: 'Helvetica Neue', 'Verdana', 'sans-serif';
+  background-color: rgb(0, 0, 0);
+}
+
+.piano{
+  margin: 20px auto;
+  display: table;
+}
+
+.piano__key{
+  display: inline-block;
+  width: 80px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset -1px -1px 3px -1px rgba(0,0,0,0.75);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  transition: background-color .3s ease-out;
+}
+
+.piano__key:hover, .piano__key:active{
+  background-color: rgb(246,246,246);
+  cursor: pointer;
+}
+
+.piano__key:active{
+  box-shadow: inset -1px -4px 3px -1px rgba(0,0,0,1);
+}
+
+.piano__key--sharp{
+  background-color: rgb(0,0,0);
+  width: 40px;
+  height: 200px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  transform: translateX(50%);
+  vertical-align: top;
+}
+
+.piano__key + .piano__key--sharp{
+  margin-left: -40px;
+}
+
+.piano__key--sharp:hover{
+  background-color: rgb(38,38,38);
+}
