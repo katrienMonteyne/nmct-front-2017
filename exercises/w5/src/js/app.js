@@ -5,7 +5,7 @@ let searchButton, filter, imagesList;
 
 function loadImages(){
     let f = filter.value;
-    let url = `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=85d944cf383ca19df759242a11be8c81&tags=${f}&format=json&nojsoncallback=1`;
+    let url = `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=4c5939829f92479d8d5b6feae4cc26ad&tags=${f}&format=json&nojsoncallback=1`;
 
     flickr.getPhotos(url).then(showImages, showError);
     
