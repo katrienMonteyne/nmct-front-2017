@@ -96,7 +96,7 @@ var searchButton = void 0,
 
 function loadImages() {
     var f = filter.value;
-    var url = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=4c5939829f92479d8d5b6feae4cc26ad&tags=' + f + '&format=json&nojsoncallback=1';
+    var url = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=919ac138c867e720fcb7fe21f94ee7cd&tags=' + f + '&format=json&nojsoncallback=1';
 
     flickr.getPhotos(url).then(showImages, showError);
 }

@@ -8,5 +8,24 @@ Hoe hernoem ik een file in een editor (Meerkeuze)
  
 leg het verschil uit tussen XMLHttpRequest en Fetch
 
+Performantie
+————————————
+Verschil tussen reflow en repaint
+Hoe kan ik reflows vermijden
+
+Wat bedoelt men met een manuele audit
+
+Verschil tussen caching en prebrowsing
+
+Codevraag ivm met good bad performantie
+
+Wat is prebrowsing en bespreek de technieken
+
+verschil tussen async en defer en wanneer welke gebruiken
+
+Waarom is caching niet altijd een goed idee
+
+
+
 
 
