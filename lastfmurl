@@ -1,0 +1,1 @@
+http://ws.audioscrobbler.com/2.0/?method=artist.search&artist=${q}&api_key=d8b1fd9fa938e365726bf420c0dfa4b2&format=json
