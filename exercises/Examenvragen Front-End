@@ -5,8 +5,10 @@ Hoe hernoem ik een file in een editor (Meerkeuze)
    - F2
    - ALT F4
 
- 
-leg het verschil uit tussen XMLHttpRequest en Fetch
+Intro
+-----
+ - Bespreek gitflow (slide 32)
+ - Ken de HTTP status codes
 
 Performantie
 ————————————
@@ -24,6 +26,41 @@ Wat is prebrowsing en bespreek de technieken
 verschil tussen async en defer en wanneer welke gebruiken
 
 Waarom is caching niet altijd een goed idee
+
+Random
+------
+Waarom is het 'eval' statement niet aan te raden? Zijn er alternatieven?
+Ik welke gevallen blijkt het toch nuttig te zijn?
+
+leg het verschil uit tussen XMLHttpRequest en Fetch
+
+Globale scope vs Local scope
+
+onderscheid tussen function scope en block scope
+
+code omzetten van ES5 naar ES6 of 7
+
+Wat is Hoisting
+
+Variable shadowing
+
+'This' vragen
+
+Wat is een closure?
+
+Wat is Reactive Programming?
+
+Bots
+----
+https://bitbucket.org/district01/gastles_chatbots_2017
+
+
+
+// en varianten
+var btn = document.getElementById('a Button');
+btn.addEventListener("click", save());
+
+var save = function(){}
 
 
 
